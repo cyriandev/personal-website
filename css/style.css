@@ -1,36 +1,36 @@
 @font-face {
     font-family: gorthia-black;
-    src: url("../font/Gordita\ Black.otf");
+    src: url("./font/Gordita\ Black.otf");
 }
 
 @font-face {
     font-family: gorthia-regular;
-    src: url("../font/Gordita\ Regular.otf");
+    src: url("./font/Gordita\ Regular.otf");
 }
 
 @font-face {
     font-family: gorthia-light;
-    src: url("../font/Gordita\ Light.otf");
+    src: url("./font/Gordita\ Light.otf");
 }
 
 @font-face {
     font-family: gorthia-medium;
-    src: url("../font/Gordita\ Medium.otf");
+    src: url("./font/Gordita\ Medium.otf");
 }
 
 @font-face {
     font-family: gorthia-thin;
-    src: url("../font/Gordita\ Thin.otf");
+    src: url("./font/Gordita\ Thin.otf");
 }
 
 @font-face {
     font-family: gorthia-ultra;
-    src: url("../font/Gordita\ Ultra.otf");
+    src: url("./font/Gordita\ Ultra.otf");
 }
 
 @font-face {
     font-family: gorthia-bold;
-    src: url("../font/Gordita\ Bold.otf");
+    src: url("./font/Gordita\ Bold.otf");
 }
 
 body {
@@ -51,15 +51,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: relative; */
 }
 
-header ul {
+header .nav {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-header ul li a {
+header .nav li a {
     font-family: gorthia-medium;
     padding: 10px;
     text-decoration: none;
@@ -183,6 +184,10 @@ header ul li a {
     color: #fff;
 }
 
+.contact .info .links a:first-child {
+    margin-left: 0;
+}
+
 footer {
     margin-top: 115px;
 }
@@ -203,11 +208,56 @@ footer p {
     background: #2b2b2b;
 }
 
+.menu {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
 
+.menu ion-icon {
+    color: #b3b3b3;
+    font-size: 35px;
+}
+
+
+.menu {
+    display: none;
+}
 
 @media (min-width: 992px) {
     .container {
         width: 970px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .nav.open {
+        display: block !important;
+    }
+
+    .nav {
+        display: none !important;
+        position: absolute;
+        padding: 0;
+        top: 65px;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        margin: 0;
+        z-index: 1;
+        padding: 20px;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+
+    .menu {
+        display: block;
+        z-index: 2;
     }
 
 }
