@@ -1,155 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sibusiso Ndlovu - Web Developer</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <Header>
-            <h1 class="name">Sibusiso Ndlovu.</h1>
-            <ul class="nav">
-                <!-- <li><a href="#about">#About.</a></li>
+      <header>
+        <h1 class="name">Sibusiso Ndlovu.</h1>
+        <ul class="nav">
+          <!-- <li><a href="#about">#About.</a></li>
                 <li><a href="#projects">#Projects.</a></li> -->
-                <li><a href="#contact">#Contact.</a></li>
-            </ul>
-            <button class="menu">
-                <ion-icon name="reorder-two-outline"></ion-icon>
-            </button>
-        </Header>
-        <main>
-            <div id="about" class="about">
-                <h1>Hello! I’m <span class="name">Sibusiso Ndlovu</span> &#128075;&#127997;.<br> A web developer based
-                    in
-                    Limpopo. I develop
-                    websites and mobile applications.
-                </h1>
+          <li><a href="#contact">#Contact.</a></li>
+          <li><a href="./resume.pdf">#Resume.</a></li>
+        </ul>
+        <button class="menu">
+          <ion-icon name="reorder-two-outline"></ion-icon>
+        </button>
+      </header>
+      <main>
+        <div id="about" class="about">
+          <h1>
+            Hello! I’m
+            <span class="name">Sibusiso Ndlovu</span> &#128075;&#127997;.<br />
+            A web developer based in Limpopo. I develop websites and mobile
+            applications.
+          </h1>
 
-                <div class="links">
-                    <span>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                    </span>
+          <div class="links">
+            <span>
+              <ion-icon name="logo-javascript"></ion-icon>
+            </span>
 
-                    <span>
-                        <ion-icon name="logo-react"></ion-icon>
-                    </span>
+            <span>
+              <ion-icon name="logo-react"></ion-icon>
+            </span>
 
-                    <span>
-                        <ion-icon name="logo-nodejs"></ion-icon>
-                    </span>
-                    <span>
-                        <ion-icon name="logo-github"></ion-icon>
-                    </span>
-                    <span>
-                        <ion-icon name="logo-html5"></ion-icon>
-                    </span>
-                    <span>
-                        <ion-icon name="logo-css3"></ion-icon>
-                    </span>
-                    <span>
-                        <ion-icon name="logo-laravel"></ion-icon>
-                    </span>
-                </div>
+            <span>
+              <ion-icon name="logo-nodejs"></ion-icon>
+            </span>
+            <span>
+              <ion-icon name="logo-github"></ion-icon>
+            </span>
+            <span>
+              <ion-icon name="logo-html5"></ion-icon>
+            </span>
+            <span>
+              <ion-icon name="logo-css3"></ion-icon>
+            </span>
+            <span>
+              <ion-icon name="logo-laravel"></ion-icon>
+            </span>
+          </div>
+        </div>
+
+        <div id="projects" class="projects">
+          <h4 class="heading">FEATURED PROJECTS &#128188;</h4>
+
+          <div class="project">
+            <h4 class="technologies">WEB APP</h4>
+            <h1>Notifyza</h1>
+            <p class="description">
+              Web app built with React, and Laravel with Bootstrap for sending
+              SMSs in bulk and to single contacts.
+            </p>
+
+            <a href="https://notifyza.co.za" target="_blank" class="link">
+              <ion-icon name="planet-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="project">
+            <h4 class="technologies">MOBILE APP</h4>
+            <h1>Loadshedding App</h1>
+            <p class="description">
+              A mobile application for loadshedding information, includes
+              national loadshedding status, schedules, tweets and watchlist.
+              Built with react native and react context for state management.
+            </p>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.cyriandev.loadshedding"
+              target="_blank"
+              class="link"
+            >
+              <ion-icon name="logo-google-playstore"></ion-icon>
+            </a>
+          </div>
+
+          <div class="project">
+            <h4 class="technologies">MOBILE APP</h4>
+            <h1>Quotes App</h1>
+            <p class="description">
+              Get random inspirational quotes, browse through over 2000 quotes
+              by 900 authors. Data from the quotable api. Built with react
+              native and react context for state management.
+            </p>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.cyriandev.quotes"
+              target="_blank"
+              class="link"
+            >
+              <ion-icon name="logo-google-playstore"></ion-icon>
+            </a>
+          </div>
+
+          <div class="project">
+            <h4 class="technologies">WEB APP</h4>
+            <h1>Movies and TV</h1>
+            <p class="description">
+              Minimal, dark themed movies and tv site for finding your next
+              movie to watch on Netflix. Build with react, react context for
+              state management, Bootstrap and TMDB API.
+            </p>
+
+            <a
+              href="https://moviesntv.cyriandev.co.za"
+              target="_blank"
+              class="link"
+            >
+              <ion-icon name="planet-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+        <div id="contact" class="contact">
+          <h4 class="heading">GET IN TOUCH</h4>
+
+          <div class="info">
+            <a href="mailto:cyriandev@gmail.com" class="email">
+              <h1>Sibusiso.Ndlovu@umuzi.org</h1>
+            </a>
+            <div class="links">
+              <a href="https://github.com/cyriandev">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+
+              <a href="https://www.linkedin.com/in/cyriandev">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a href="https://wa.me/+27790946233">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
             </div>
+          </div>
+        </div>
+      </main>
 
-
-            <div id="projects" class="projects">
-                <h4 class="heading">FEATURED PROJECTS &#128188;</h4>
-
-                <div class="project">
-                    <h4 class="technologies">WEB APP</h4>
-                    <h1>Notifyza</h1>
-                    <p class="description">Web app built with React, and Laravel with Bootstrap for sending SMSs in bulk
-                        and
-                        to single contacts.
-                    </p>
-
-                    <a href="https://notifyza.co.za" target="_blank" class="link">
-                        <ion-icon name="planet-outline"></ion-icon>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <h4 class="technologies">MOBILE APP</h4>
-                    <h1>Loadshedding App</h1>
-                    <p class="description">A mobile application for loadshedding information, includes national
-                        loadshedding
-                        status, schedules, tweets and
-                        watchlist. Built with react native and react context for state management.
-                    </p>
-
-                    <a href="https://play.google.com/store/apps/details?id=com.cyriandev.loadshedding" target="_blank"
-                        class="link">
-                        <ion-icon name="logo-google-playstore"></ion-icon>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <h4 class="technologies">MOBILE APP</h4>
-                    <h1>Quotes App</h1>
-                    <p class="description">Get random inspirational quotes, browse through over 2000 quotes by 900
-                        authors.
-                        Data from the quotable api. Built with
-                        react native and react context for state management.</p>
-
-                    <a href="https://play.google.com/store/apps/details?id=com.cyriandev.quotes" target="_blank"
-                        class="link">
-                        <ion-icon name="logo-google-playstore"></ion-icon>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <h4 class="technologies">WEB APP</h4>
-                    <h1>Movies and TV</h1>
-                    <p class="description">Minimal, dark themed movies and tv site for finding your next movie to watch
-                        on
-                        Netflix. Build with react, react context for state management, Bootstrap and TMDB API.</p>
-
-                    <a href="https://moviesntv.cyriandev.co.za" target="_blank" class="link">
-                        <ion-icon name="planet-outline"></ion-icon>
-                    </a>
-                </div>
-
-
-            </div>
-
-            <div id="contact" class="contact">
-                <h4 class="heading">GET IN TOUCH</h4>
-
-                <div class="info">
-                    <a href="mailto:cyriandev@gmail.com" class="email">
-                        <h1>Sibusiso.Ndlovu@umuzi.org</h1>
-                    </a>
-                    <div class="links">
-                        <a href="https://github.com/cyriandev">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/cyriandev">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                        <a href="https://wa.me/+27790946233">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy; 2022 - Sibusiso Ndlovu.</p>
-        </footer>
+      <footer>
+        <p>&copy; 2022 - Sibusiso Ndlovu.</p>
+      </footer>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
     <script src="./js/main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
 </html>
