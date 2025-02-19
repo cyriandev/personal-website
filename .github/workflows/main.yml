@@ -1,0 +1,24 @@
+on: push
+name: 🚀 Deploy Static Website on Push
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy to Server
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 📂 Sync files without deletion
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: ftp.cyriandev.co.za
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./
+          server-dir: /public_html/
+          log-level: verbose
+          exclude: |
+            */.md
+            **/node_modules/
+            */.git

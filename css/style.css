@@ -1,43 +1,47 @@
 @font-face {
     font-family: gorthia-black;
-    src: url("./font/Gordita\ Black.otf");
+    src: url("./font/gordita-black.otf");
 }
 
 @font-face {
     font-family: gorthia-regular;
-    src: url("./font/Gordita\ Regular.otf");
+    src: url("./font/gordita-regular.otf");
 }
 
 @font-face {
     font-family: gorthia-light;
-    src: url("./font/Gordita\ Light.otf");
+    src: url("./font/gordita-light.otf");
 }
 
 @font-face {
     font-family: gorthia-medium;
-    src: url("./font/Gordita\ Medium.otf");
+    src: url("./font/gordita-medium.otf");
 }
 
 @font-face {
     font-family: gorthia-thin;
-    src: url("./font/Gordita\ Thin.otf");
+    src: url("./font/gordita-thin.otf");
 }
 
 @font-face {
     font-family: gorthia-ultra;
-    src: url("./font/Gordita\ Ultra.otf");
+    src: url("./font/gordita-ultra.otf");
 }
 
 @font-face {
     font-family: gorthia-bold;
-    src: url("./font/Gordita\ Bold.otf");
+    src: url("./font/gordita-bold.otf");
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: #1C1E21;
     font-family: gorthia-regular;
     color: #fff;
+   
 }
+
 
 
 canvas {
@@ -113,6 +117,10 @@ header .nav li a {
     color: black;
     font-family: gorthia-medium;
     font-size: 20px;
+}
+
+.project a{
+    text-decoration: none;
 }
 
 .name {
