@@ -21,3 +21,4 @@ jobs:
             **/*.md
             node_modules/**
             .git/**
+            .github/**
