@@ -1,15 +1,14 @@
 on: push
-name: 🚀 Deploy Static Website on Push
-
+name: 🚀 Deploy website on push
 jobs:
   web-deploy:
-    name: 🎉 Deploy to Server
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
-      - name: 📂 Sync files without deletion
+      - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ftp.cyriandev.co.za
