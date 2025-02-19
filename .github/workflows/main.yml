@@ -16,8 +16,8 @@ jobs:
           password: ${{ secrets.ftp_password }}
           local-dir: ./
           server-dir: /public_html/
-          log-level: verbose
+          log-level: debug
           exclude: |
-            */.md
-            **/node_modules/
-            */.git
+            **/*.md
+            node_modules/**
+            .git/**
