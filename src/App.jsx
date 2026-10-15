@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WaveBackground from './components/WaveBackground'
 import LoadsheddingPrivacy from './components/LoadsheddingPrivacy'
+import KasiLingoPrivacy from './components/KasiLingoPrivacy'
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/loadshedding/privacy" element={<LoadsheddingPrivacy />} />
+      <Route path="/kasi-lingo/privacy" element={<KasiLingoPrivacy />} />
     </Routes>
   )
 }
