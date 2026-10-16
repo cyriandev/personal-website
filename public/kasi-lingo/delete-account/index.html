@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Your Account — Kasi Lingo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      :root {
+        --bg: #0E0F11;
+        --bg-card: #141618;
+        --border: #222529;
+        --text: #F0EDE8;
+        --muted: #656A75;
+        --accent: #00D9F5;
+        --font: 'Space Mono', monospace;
+      }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        background-color: var(--bg);
+        font-family: var(--font);
+        color: var(--text);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 28px 80px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 0;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 64px;
+      }
+
+      .header-name {
+        font-family: var(--font);
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--text);
+        letter-spacing: -0.02em;
+        text-decoration: none;
+      }
+
+      .header-name em { color: var(--accent); font-style: normal; }
+
+      .back-link {
+        font-size: 13px;
+        color: var(--muted);
+        text-decoration: none;
+        padding: 8px 14px;
+        border-radius: 6px;
+        transition: color 0.15s, background 0.15s;
+      }
+
+      .back-link:hover { color: var(--text); background: var(--bg-card); }
+
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        font-size: clamp(28px, 5vw, 42px);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        line-height: 1.1;
+        margin-bottom: 12px;
+      }
+
+      .meta {
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 56px;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: var(--text);
+        margin-top: 48px;
+        margin-bottom: 14px;
+      }
+
+      p, li {
+        font-size: 14px;
+        line-height: 1.8;
+        color: var(--muted);
+      }
+
+      p + p { margin-top: 14px; }
+
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      hr {
+        border: none;
+        border-top: 1px solid var(--border);
+        margin: 56px 0 0;
+      }
+
+      footer {
+        padding: 28px 0 0;
+      }
+
+      footer p { font-size: 12px; color: var(--muted); }
+
+      ::selection { color: #0E0F11; background: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a class="header-name" href="/">Kasi <em>Lingo</em></a>
+        <a class="back-link" href="/">← Back</a>
+      </header>
+
+      <main>
+        <p class="eyebrow">Legal</p>
+        <h1>Delete Your Account</h1>
+        <p class="meta">Kasi Lingo &nbsp;·&nbsp; Last updated: October 2026</p>
+
+        <p>
+          This page explains how to delete your <strong>Kasi Lingo</strong> account
+          (package name: <code>com.cyriandev.kasilingo</code>) and what happens to your data
+          when you do.
+        </p>
+
+        <h2>Delete in the app</h2>
+        <p>
+          Open Kasi Lingo, go to your <strong>Profile</strong> tab, tap <strong>Edit profile</strong>,
+          then scroll down and tap <strong>Delete account</strong>. This takes effect immediately —
+          no waiting period.
+        </p>
+
+        <h2>Request deletion without the app</h2>
+        <p>
+          If you no longer have the app installed, or can't sign in, email us at
+          <a href="mailto:cyriandev@gmail.com?subject=Delete%20my%20Kasi%20Lingo%20account">cyriandev@gmail.com</a>
+          from the email address on your account and ask us to delete it. We'll confirm once it's
+          done, typically within a few days.
+        </p>
+
+        <h2>What gets deleted</h2>
+        <p>
+          Deleting your account removes your profile, email address, and push notification token
+          from our systems. Words, definitions, comments, votes, and audio pronunciation recordings
+          you've contributed to the shared dictionary may be retained in anonymised form — detached
+          from your identity — to preserve the dictionary for other users.
+        </p>
+
+        <h2>Questions</h2>
+        <p>
+          See our <a href="/kasi-lingo/privacy">Privacy Policy</a> for more detail on what we
+          collect and how it's used, or contact us at
+          <a href="mailto:cyriandev@gmail.com">cyriandev@gmail.com</a>.
+        </p>
+      </main>
+
+      <hr />
+      <footer>
+        <p>© 2026 cyrian.dev.</p>
+      </footer>
+    </div>
+  </body>
+</html>

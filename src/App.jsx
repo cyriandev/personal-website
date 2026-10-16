@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import WaveBackground from './components/WaveBackground'
 import LoadsheddingPrivacy from './components/LoadsheddingPrivacy'
 import KasiLingoPrivacy from './components/KasiLingoPrivacy'
+import KasiLingoDeleteAccount from './components/KasiLingoDeleteAccount'
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/loadshedding/privacy" element={<LoadsheddingPrivacy />} />
       <Route path="/kasi-lingo/privacy" element={<KasiLingoPrivacy />} />
+      <Route path="/kasi-lingo/delete-account" element={<KasiLingoDeleteAccount />} />
     </Routes>
   )
 }
