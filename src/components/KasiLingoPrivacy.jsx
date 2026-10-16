@@ -2,7 +2,7 @@ export default function KasiLingoPrivacy() {
   return (
     <div className="container">
       <header>
-        <a className="header-name" href="/">Sibusiso <em>Ndlovu</em></a>
+        <a className="header-name" href="/">Kasi <em>Lingo</em></a>
         <a className="back-link" href="/">← Back</a>
       </header>
 
@@ -83,7 +83,7 @@ export default function KasiLingoPrivacy() {
       </main>
 
       <footer style={{ borderTop: '1px solid var(--border)', marginTop: 56, paddingTop: 28 }}>
-        <p>© {new Date().getFullYear()} Sibusiso Ndlovu.</p>
+        <p>© {new Date().getFullYear()} cyrian.dev.</p>
       </footer>
     </div>
   )

@@ -2,7 +2,7 @@ const projects = [
   {
     type: 'Mobile App',
     name: 'Moving Parcels',
-    url: 'https://play.google.com/store/apps/developer?id=Molo',
+    url: 'https://play.google.com/store/apps/developer?id=Moving++Parcels',
     description:
       'A peer-to-peer delivery platform where drivers earn by dropping off parcels along their existing routes. Two beautifully designed apps — one for drivers, one for senders. Built with React Native and a Laravel backend.',
     cta: 'View on Play Store',
