@@ -13,7 +13,7 @@ export default function KasiLingoPrivacy() {
 
         <p className="privacy-body">
           This privacy policy applies to the <strong>Kasi Lingo</strong> mobile application
-          (package name: <code>com.cyriandev.kasilingo</code>) published by Sibusiso Ndlovu
+          (package name: <code>com.cyriandev.kasilingo</code>) published by Cyrian.dev
           ("we", "us", or "our"). Kasi Lingo is a crowd-sourced dictionary of South African
           township slang.
         </p>

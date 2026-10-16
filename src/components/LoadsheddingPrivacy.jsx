@@ -2,7 +2,7 @@ export default function LoadsheddingPrivacy() {
   return (
     <div className="container">
       <header>
-        <a className="header-name" href="/">Sibusiso <em>Ndlovu</em></a>
+        <a className="header-name" href="/">Loadshedding <em>App</em></a>
         <a className="back-link" href="/">← Back</a>
       </header>
 
@@ -13,7 +13,7 @@ export default function LoadsheddingPrivacy() {
 
         <p className="privacy-body">
           This privacy policy applies to the <strong>Loadshedding</strong> mobile application
-          (package name: <code>com.cyriandev.loadshedding</code>) published by Sibusiso Ndlovu
+          (package name: <code>com.cyriandev.loadshedding</code>) published by Cyrian.dev
           ("we", "us", or "our").
         </p>
 
@@ -81,7 +81,7 @@ export default function LoadsheddingPrivacy() {
       </main>
 
       <footer style={{ borderTop: '1px solid var(--border)', marginTop: 56, paddingTop: 28 }}>
-        <p>© {new Date().getFullYear()} Sibusiso Ndlovu.</p>
+        <p>© {new Date().getFullYear()} cyrian.dev.</p>
       </footer>
     </div>
   )
